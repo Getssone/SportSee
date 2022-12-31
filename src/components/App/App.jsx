@@ -17,8 +17,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/user/:id" exact component={Dashboard} />
           <Route component={Error} />
+          <Redirect from='*' to='/404' />
         </Switch>
-        <Redirect from='*' to='/404' />
       </Router>
     </React.StrictMode>
   );
