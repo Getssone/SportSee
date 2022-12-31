@@ -8,7 +8,7 @@ export default function Demo() {
       Données actuelles:  "mocked"
         (aucune modification)
         <br></br>
-        Avec API, (mettre en commentaire les données "mocked" et dé commenter les données API):
+        Avec API, (mettre en commentaire les données "mocked" et dé-commenter les données API):
       </p>
       <div className="demo">
         <Link className="btn" to="/user/12">
