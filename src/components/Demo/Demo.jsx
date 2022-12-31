@@ -5,9 +5,10 @@ export default function Demo() {
   return (
     <div className="profile-link">
       <p>
-        Avec API,(aucune modification)
+        Acruellement en avec des données mockées
+        (aucune modification)
         <br></br>
-        Avec données mockées (mettre en commentaire les données API et décomanter les les donnée mockées):
+        Avec API, (mettre en commentaire les données mockées et décomanter les donnée API):
       </p>
       <div className="demo">
         <Link className="btn" to="/user/12">
