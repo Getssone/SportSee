@@ -5,17 +5,17 @@ export default function Demo() {
   return (
     <div className="profile-link">
       <p>
-        Acruellement en avec des données mockées
+      Données actuelles:  "mocked"
         (aucune modification)
         <br></br>
-        Avec API, (mettre en commentaire les données mockées et décomanter les donnée API):
+        Avec API, (mettre en commentaire les données "mocked" et dé commenter les données API):
       </p>
       <div className="demo">
         <Link className="btn" to="/user/12">
-          <div>User 12</div>
+          <div> Karl </div>
         </Link>
         <Link className="btn" to="/user/18">
-          <div>User 18</div>
+          <div> Cécilia </div>
         </Link>
       </div>
     </div>
